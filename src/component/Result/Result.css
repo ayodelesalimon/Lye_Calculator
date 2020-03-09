@@ -26,6 +26,7 @@
 
 
 .result-paragraph {
+    text-align: left;
     padding: 12px;
     color: rgb(48, 43, 43);
     font-size: 20px;
@@ -35,6 +36,7 @@
     margin-bottom: 5%;
 }
 .result-paragraph2 {
+    text-align: left;
     padding: 12px;
     color: rgb(48, 43, 43);
     font-size: 20px;
@@ -45,6 +47,7 @@
     margin-bottom: 5%;
 }
 .result-paragraph3 {
+    text-align: left;
     padding: 12px;
     color: rgb(48, 43, 43);
     font-size: 20px;
@@ -65,7 +68,7 @@ strong {
 }
 
 @media screen and (max-width: 1000px) {
-    .result-paragraph{
+    /* .result-paragraph{
         font-size: 15px;
     }
     .result-paragraph2 {
@@ -73,5 +76,34 @@ strong {
     }
     .result-paragraph3 {
         font-size: 15px;
+    } */
+    .result {
+        /*new*/
+        width: 80%;
+        padding-left: 25%;
     }
+    .result-header2 {
+        /*new*/
+        font-size: 10px;
+        width: 80%;
+    }
+    .result-paragraph{
+        font-size: 9px;
+    }
+    .result-paragraph2 {
+        font-size: 8px;
+        margin-left: 1%;
+    }
+    .result-paragraph3 {
+        font-size: 9px;
+    }
+    .oil-selected {
+        margin-left: -5%;
+    }
+    center{
+    text-align: center;
+    padding-left: 10px;
+        
+    }
+    
 }

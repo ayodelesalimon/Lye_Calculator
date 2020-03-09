@@ -90,9 +90,10 @@ class Ingredient extends React.Component {
         return (
             <div className="ingredient">
                 
-                <h1>INGREDIENTS</h1>
-                <p>What are your Oil ingredient amounts by weight (measured in grams)</p>
-                
+                <h1 className="ingred">INGREDIENTS</h1>
+
+                <p className="ingred-paragraph">What are your Oil ingredient amounts by weight (measured in grams)</p>
+
                     <div className="ingredient-div">
                       <div className="ingredient-div-div"><label>Aloe Vera Oil</label><input name="aloeVera" value={aloeVera} onChange={this.handleChange} className="ingredient-input1" type="text" /></div>
                       <div className="ingredient-div-div"><label>Apricot Kernel Oil</label><input name="apricot" value={apricot} onChange={this.handleChange} className="ingredient-input1" type="text" /></div>

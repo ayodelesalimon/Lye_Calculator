@@ -27,7 +27,7 @@ class Result extends React.Component {
        
         return (
            
-        <div>
+        <div className="print-center">
         <ReactToPrint
           trigger={() => <a href="#" className="print">
           <center><i class='fas fa-print'></i>Print this out!</center> </a>}

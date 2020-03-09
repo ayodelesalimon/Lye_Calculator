@@ -67,6 +67,40 @@
         width: 20%;
     }
     label {
+        font-size: 11px;
+        color: black;
         margin-right: 15%;
     }
+    .ingred-paragraph { 
+        
+        width: 80%;
+        padding-left: 25%;
+        color: black;
+    }
+    .ingred {
+        padding-left: 25%;
+        text-align: center;
+        width: 70%;
+        font-size: 30px;
+    }
+    .ingredient {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /*new*/
+    }
+    .ingredient-button {
+       padding-left: 25%;
+        align-items: center;
+        margin-top: 5%;
+    }
+    .try1{
+        padding-left: 25%;
+    
+    }
+    /* .images{
+        padding-left: 25%;
+    } */
 }
